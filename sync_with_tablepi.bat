@@ -1,0 +1,1 @@
+scp -r ./* tablepi@tablepi:~/test-tablepi-manager

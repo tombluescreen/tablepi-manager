@@ -1,0 +1,7 @@
+
+
+privatepassword=tablepibeans
+serverpassword=tablepisussy
+generate_public_key(private_key,filename="ca-public-key.pem",country="GB",state="England",locality="London",org="tablepi CA",hostname="tablepi-ca.com")
+
+generate_csr(server_private_key, filename="server-csr.pem", country="GB", state="England", locality="London", org="tablepi CA", alt_names=["localhost"], hostname="tablepi-ca.com")
